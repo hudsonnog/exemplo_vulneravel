@@ -51,7 +51,7 @@
                 <version>3.0.4</version>
                 <configuration>
                     <effort>Max</effort>
-                    <threshold>Medium</threshold> <!-- low é para auditores de seguranca -->
+                    <threshold>Medium</threshold> <!-- Low é para auditores de seguranca | Medium  | High -->
                     <failOnError>true</failOnError>
                     <includeFilterFile>${session.executionRootDirectory}/findbugs-security-include.xml</includeFilterFile>
                     <excludeFilterFile>${session.executionRootDirectory}/findbugs-security-exclude.xml</excludeFilterFile>
