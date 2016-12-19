@@ -48,13 +48,13 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>findbugs-maven-plugin</artifactId>
-                <version>3.0.5</version>
+                <version>3.0.4</version>
                 <configuration>
                     <effort>Max</effort>
                     <threshold>Medium</threshold> <!-- low é para auditores de seguranca -->
                     <failOnError>true</failOnError>
-                    <includeFilterFile>findbugs-security-include.xml</includeFilterFile>
-                    <excludeFilterFile>findbugs-security-exclude.xml</excludeFilterFile>
+                    <includeFilterFile>${session.executionRootDirectory}/findbugs-security-include.xml</includeFilterFile>
+                    <excludeFilterFile>${session.executionRootDirectory}/findbugs-security-exclude.xml</excludeFilterFile>
                     <plugins>
                         <plugin>
                             <groupId>com.h3xstream.findsecbugs</groupId>
@@ -63,13 +63,6 @@
                         </plugin>
                     </plugins>
                 </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
