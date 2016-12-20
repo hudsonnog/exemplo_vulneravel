@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JavaVulnerableLab:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="JavaVulnerableLab.war">
+      <element id="artifact" artifact-name="JavaVulnerableLab:war exploded" />
+    </root>
+  </artifact>
+</component>
