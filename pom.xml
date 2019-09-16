@@ -5,7 +5,7 @@
     <artifactId>JavaVulnerableLab</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>JavaVulnerableLab Maven Webapp</name>
+    <name>JavaVulnerableLab Maven Webapp teste</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
